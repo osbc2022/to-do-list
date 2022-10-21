@@ -24,23 +24,65 @@ header{
 }
 main{
     margin-top: -5vh;
-    width: 70vh;
+    width: 70vw;
     height: fit-content;
 }
 .todo-form{
-    background-color: rgb(0, 0, 10);
+    background-color: rgb(5, 5, 5);
     width: 100%;
     height: fit-content;
+    border-radius: 10px;
+    padding: 30px;
 }
 .todo-form .input-wrapper input{
     padding: 10px;
     width: 100%;
+    border-radius: 5px;
+    border: 2px solid grey;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    background-color: rgba(225, 225, 225, 0.1);
 }
 .todo-form .input-wrapper{
     width: 100%;
+    position: relative;
 }
+.todo-form .input-wrapper button{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid grey;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    right: 10px;
+    top: 5px;
+}
+.todo-form ul{
+    width: 100%;
+    margin-left: -30px;
+    padding: 30px;
+} 
 .todo-form ul li{
     list-style-type: none;
-    font-size: 20px;
+    font-size: 17px;
     margin: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.todo-form ul li button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    background-color: rgba(0, 100, 30, 0.1);
+    color: green;
+    font-size:17px;
+    font-weight:bold;
 }
