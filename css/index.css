@@ -44,6 +44,9 @@ main{
     font-size: 17px;
     background-color: rgba(225, 225, 225, 0.1);
 }
+.todo-form .input-wrapper input:focus{
+    filter: drop-shadow(0 0 10px rgba(225,225,225,0.5));
+}
 .todo-form .input-wrapper{
     width: 100%;
     position: relative;
@@ -60,6 +63,13 @@ main{
     font-weight: bold;
     right: 10px;
     top: 5px;
+}
+.todo-form .input-wrapper button:hover{
+    background-color:rgba(0, 225, 100, 0.5);
+    scale: 1.1;
+}
+button:hover{
+    scale: 1.1;
 }
 .todo-form ul{
     width: 100%;
