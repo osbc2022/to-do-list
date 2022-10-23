@@ -86,3 +86,8 @@ main{
     font-size:17px;
     font-weight:bold;
 }
+@media only screen and (max-width: 700px){
+    main{
+        width:100%;
+    }
+}
