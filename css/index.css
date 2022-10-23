@@ -51,7 +51,7 @@ main{
     width: 100%;
     position: relative;
 }
-.todo-form .input-wrapper button{
+.todo-form .input-wrapper > button{
     width: 35px;
     height: 35px;
     position: absolute;
@@ -64,9 +64,33 @@ main{
     right: 10px;
     top: 5px;
 }
-.todo-form .input-wrapper button:hover{
+.todo-form .input-wrapper > button:hover{
     background-color:rgba(0, 225, 100, 0.5);
     scale: 1.1;
+}
+.todo-form .input-wrapper .colorContainer > button{
+   background-color: transparent;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-radius:10px;
+   margin-top: 10px;
+   opacity: 0.5;
+}
+.todo-form .input-wrapper .colorContainer #red{
+    background-color: red;
+    border-color: red;
+}
+.todo-form .input-wrapper .colorContainer #blue{
+    background-color: blue;
+    border-color: blue;
+}
+.todo-form .input-wrapper .colorContainer #lightgreen{
+    background-color: lightgreen;
+    border-color: lightgreen;
+}
+.todo-form .input-wrapper .colorContainer #yellow{
+    background-color: yellow;
+    border-color: yellow;
 }
 button:hover{
     scale: 1.1;
