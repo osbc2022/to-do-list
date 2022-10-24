@@ -2,7 +2,9 @@
 
 <h3 align="center">
 
-__🧿 live preview__ [click here 👀](https://osbc2022.github.io/watch-product-landing-page/) 
+![image](https://user-images.githubusercontent.com/115569958/197495268-770265c3-c59b-4ff3-a669-2ee427eaf1e2.png)
+
+__🧿 live preview__ [click here 👀](https://osbc2022.github.io/to-do-list/) 
 
 </h3>
 
