@@ -29,7 +29,10 @@ window.onload = () =>{
         let msg = ["Your todos will apear here"];
         showTodos(msg);
     }else{
-        showTodos(todo);
+     let todoList = todo.map((data , index)=>{
+        return ` <li style="color:${data.color};"> ${data.task} <button onclick="taskdone(${index})">✓</button></li>`
+    });
+        showTodos(todoList);
     }
 }
 
@@ -61,20 +64,22 @@ function setColor(color){
 }
 // on add btn click
 addTodoBtn.onclick = () => {
-    todo.push({
-        task:inputTodo.value,
-        color:todoColor,
-    });
-    showTodos(todoToHtml(todo));
-    addTodo(todo);
-    inputTodo.value = " " ;
-    let colorBtn;
-    if(todoColor !== "white"){
-        colorBtn = document.querySelector(`#${todoColor}`);
-        colorBtn.style = "opacity:0.5"
-    } 
-    todoColor = "white";
-
+    if(inputTodo.value !== " "){
+        todo.push({
+            task:inputTodo.value,
+            color:todoColor,
+        });
+        showTodos(todoToHtml(todo));
+        addTodo(todo);
+        inputTodo.value = " " ;
+        let colorBtn;
+        if(todoColor !== "white"){
+            colorBtn = document.querySelector(`#${todoColor}`);
+            colorBtn.style = "opacity:0.5"
+        } 
+        todoColor = "white";
+        inputTodo.style = `color:${todoColor})`
+    }
 }
 
 function taskdone(index){
