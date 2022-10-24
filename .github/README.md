@@ -1,4 +1,4 @@
-<h1 align="center"> Product(⌚) Landing Page Templete </h1>
+<h1 align="center"> To do list website </h1>
 
 <h3 align="center">
 
@@ -13,16 +13,12 @@ we aim to make more people indulge into open source and we are doing this by all
 ## Technologies Used :
 ![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
+![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## Who Can Contribute ?
 All contributions are welcomed. Even if it's your 1st, 2nd, 3rd or 100th you can add value to the project.
  > check our "<b>[Contribution Guidelines](./CONTRIBUTING.md)</b>" 👀 and follow the instruction 📜
 
-## Scope of the projects :
-- we are going to make it with only HTML & CSS
-- we are making a Watch product landing page, so every thing should be in that prespective
-- you can add features like login, buy product page, animations etc.
-- what we are missing in the website are your ideas and features, so check the "[Contribution Guidelines](./CONTRIBUTING.md)" and start contributing
 
 ## 📌 How To Contribute ?
 check our "<b>[Contribution Guidelines](./CONTRIBUTING.md)</b>" 👀 and follow the instruction 📜
