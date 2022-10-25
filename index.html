@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todos</title>
-    <link rel="stylesheet" href="./css/index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
     <header>
-        <h1>Todos</h1>
+      <h1>Todos</h1>
     </header>
     <main>
-       <div class="todo-form">
-            <div class="input-wrapper">
-                <input type="text" name="addTodo" id="addTodo">
-                <button id="addTodoBtn">+</button>
-                <div class="colorContainer">
-                    <button id="red" onclick="setColor('red')" >red</button>
-                    <button id="blue" onclick="setColor('blue')" >blue</button>
-                    <button id="lightgreen" onclick="setColor('lightgreen')" >green</button>
-                    <button id="yellow" onclick="setColor('yellow')">yellow</button>
-                </div>
-            </div>
-           <ul class="todos">
-              
-           </ul>
-       </div> 
+      <div class="todo-form">
+        <div class="input-wrapper">
+          <input type="text" name="addTodo" id="addTodo" />
+          <button id="addTodoBtn">+</button>
+          <div class="colorContainer">
+            <button id="red" onclick="setColor('red')">red</button>
+            <button id="blue" onclick="setColor('blue')">blue</button>
+            <button id="lightgreen" onclick="setColor('lightgreen')">
+              green
+            </button>
+            <button id="yellow" onclick="setColor('yellow')">yellow</button>
+          </div>
+        </div>
+        <ul class="todos"></ul>
+      </div>
     </main>
-</body>
-    <script src="./js/index.js"></script>
+
+    <footer>
+      <a href="https://github.com/osbc2022/to-do-list/graphs/contributors">
+        <img src="https://contrib.rocks/image?repo=osbc2022/to-do-list" />
+      </a>
+    </footer>
+  </body>
+  <script src="./js/index.js"></script>
 </html>
