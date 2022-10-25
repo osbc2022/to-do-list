@@ -31,13 +31,13 @@ check our "<b>[Contribution Guidelines](./CONTRIBUTING.md)</b>" 👀 and follow 
 
 <h3 align=center> Contribution Is Fun ❤️ </h3>
 
-<footer>
+<div align=center>
 <h4>OUR CONTRIBUTORS:</h4>
 
   <a href="https://github.com/osbc2022/to-do-list/graphs/contributors">
     <img src="https://contrib.rocks/image?repo=osbc2022/to-do-list" />
   </a>
-</footer>
+</div>
 
 ---
 
